@@ -260,4 +260,3 @@ ansible-playbook install_httpd.yaml
 ## 📝 Author
 
 - **Your Name:** Ritik Kumar Sahu / Mayank Singh Solanki
-- **DevOps Engineer Guidance by:** ChatGPT (5+ YOE Simulation)
