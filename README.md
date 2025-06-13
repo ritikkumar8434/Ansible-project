@@ -259,4 +259,4 @@ ansible-playbook install_httpd.yaml
 
 ## 📝 Author
 
-- **Your Name:** Ritik Kumar Sahu / Mayank Singh Solanki
+- **Your Name:** Ritik Kumar Sahu 
