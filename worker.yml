@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ansible-node
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      role: node
+  template:
+    metadata:
+      labels:
+        role: node
+    spec:
+      containers:
+      - name: node
+        image: ritikkumarsahu/rhel-ansible:v1
+        ports:
+        - containerPort: 22

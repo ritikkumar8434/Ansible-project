@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ansible-master
+  labels:
+    role: master
+spec:
+  containers:
+  - name: master
+    image: ritikkumarsahu/rhel-ansible:v1
+    ports:
+    - containerPort: 22
